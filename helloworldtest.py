@@ -1,3 +1,3 @@
-print ("JAG VUILKLK IUTBEN,world!")
+print ("VADFANHÄNDER")
 print ("x=5")
 print("Helloworld,x=5")
