@@ -1,2 +1,3 @@
-if 5 > 2:
-  print("Five is greater than two!")
+frukter = ["äpple", "banan", "körsbär"]
+for frukt in frukter:
+    print(frukt)
