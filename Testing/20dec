@@ -1,0 +1,78 @@
+"""
+person = {
+
+
+"namn" : "anna",
+"alder": 25,
+"stad": "Stockholm",
+
+
+}
+person["land"] = "sverige"
+person["stad"] = "Stenfors"
+print(person)
+
+
+
+
+produkt = [   
+{
+"kategori" : "dator",
+"brand" : "Samsung",
+"typ" : "laptop",
+"pris" : "5050",
+"butik" : "Whatever"
+
+},
+
+{
+ "kategori": "telefon",
+ "brand": "Apple",
+ "typ": "iPhone",
+ "pris": 9999,
+ "butik": "MediaMarkt"
+},
+{
+   "kategori": "dator",
+   "brand": "Lenovo",
+   "typ": "laptop",
+   "pris": 7500,
+   "butik": "NetOnNet"
+ }, 
+ ]
+for produkter in produkt:
+ print(*produkter.values())
+print(type(person))
+
+
+
+
+x = 10
+y = 20
+if x>y: 
+ print ("X är större än y") 
+
+
+
+
+
+
+# Fråga användaren om ett nummer
+x = int(input("Skriv in ett nummer: "))
+
+# Kontrollera numrets värde
+if x < 10:
+    print("Numret är mindre än 10.")
+elif x == 25:
+    print("Numret är exakt 25.")
+else:
+    print("Numret är större än 10 och inte 25.")
+
+
+"""
+
+
+
+
+
+
